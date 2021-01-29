@@ -1,0 +1,133 @@
+#register-box {
+    
+    border-radius: 20px;
+    height: 100%;
+    width: 80%;
+    margin:10% auto;    
+    background-color: rgb(221, 221, 221);
+
+}
+
+#register-form {
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+.input-box, #input-box-profile, #input-box-categories, #input-box-user-photo {
+    display: flex;
+    width: 100%;
+    font-size: 100%;
+    margin: 2%;
+}
+
+#check-in-title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 3vh;
+    color: rgb(90, 90, 90);
+}
+
+
+.input {      
+    background-color: #fff;
+    color: #666;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-style: none;
+    padding: 2%;
+}
+
+#send-button, #reset-button {
+    font-size: 100%;
+    background-color: #1259c3;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 2%;
+    width: 100%;
+    margin: auto 2%;
+    transition: all 150ms;
+}
+
+#buyer-seller {
+    display: flex;
+    margin-top: 1%;
+}
+
+.buyer-seller-items {
+    width: 50%;
+    display: flex;
+    margin: 1%;
+    text-align: center;
+    justify-content: center;
+}
+
+.profile-label {
+    margin-left: 5%;
+}
+
+#input-box-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+#input-box-categories {
+    display: flex;
+    flex-direction: column;
+}
+
+#categories-ul {
+    list-style: none;
+
+}
+
+.categories-li {
+    margin: 2% auto;
+}
+
+#input-box-user-photo {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.label-titles {
+    font-weight: bold;
+    color: rgb(90, 90, 90)
+
+}
+
+label {
+    color: #666;
+}
+
+.user-photo {
+    padding: 10px;
+}
+
+@media (min-width: 1200px){
+    #register-box{
+        width: 60%;
+    }
+
+    #send-button:hover {
+        background-color: #0022AA;
+    }
+
+    #reset-button:hover {
+        background-color: #0022AA;
+    }
+
+}

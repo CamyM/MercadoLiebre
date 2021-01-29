@@ -1,125 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
 body {
-    font-family : 'Roboto', sans-serif;
-    font-size: 12px;
-}
+    font-family: "Roboto", sans-serif;
+    background-color: #ebebeb;
+  }
 
-
-#logo-de-mercadoliebre {
-    text-align: center;
-    margin-bottom: 16px;
-}
-
-header {
-    background-color: #EAC926;
-    padding: 16px;
-}
-
-.link-list {
-    list-style-type: none; 
-    padding-left: 0px;
-}
-
-.link-list a {
-    color: black;
-    text-decoration: none;  
-}
-
-
-header p {
-    text-align: center;
-}
-
-#menu-button {
-    background-color:#1259c3;
-    font-size: 30px;
-    color: white;
-    border-radius: 6px;
-    border-style: none;
-}
-
-#menu-button-container {
-    text-align: center;
-}
-
-main {
+main{
     margin: 0 auto;
     width: 90%;
-    text-align: center;
 }
 
-main section div { 
-    
-    margin-top: 10px;
-    text-align: left;
-
+.banner img{
+    display: block;
+    width: 100%;
 }
-
-h3 {
-    font-size: 24px;
-    margin-top: 60px;
-    text-align: left;
-}
-
-main section div i{
-    color: green;
-    border-style: solid;
-    border-color: green;
-    border-radius: 50%;
-    padding-bottom: 14px;
-    padding-right: 14px;
-    padding-top: 8px;
-    padding-left: 8px;
-    border-width: 1px;
-}
-
-.precios {
-    font-size: 18px;  
-}
-
-.descuentos {
-    font-size: 16px;
-    color: green;
-}
-
-h4 {
-    font-size: 16px;
-}
-
-footer {
-    padding: 16px;
-    text-align: center;
-    
-    color:  #666;
-}
-
-h5 {
-    font-size: 18px;
-    margin: 0px;
-    font-weight:bolder;
-}
-
-footer div i {
-    color: #1259c3;
-    font-size: 35px;
-    margin-bottom: 14px;
-    
-}
-
-footer div {
-    margin-top: 60px;
-    margin-left: 16px;
-    margin-right: 16px;
-    width: 300px;
-}
-
-footer div p {
-    margin: 0px;
-    font-size:14px;
-}
-
-#copyright {
-    text-align: left;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
