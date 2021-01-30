@@ -80,9 +80,8 @@
 }
 
 .error-li {
-    margin: 5% auto;
     color: red;
 }
-
-
-
+#log-in-form:hover .error-box{
+    display:inline;
+}
