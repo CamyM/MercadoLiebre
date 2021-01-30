@@ -3,7 +3,10 @@ const path = require('path');
 
 const app = express();
 
-app.listen(3002);
+app.listen(process.env.PORT || 3002, function() {
+    console.log("servidor corriendo en el puerto 3002");
+
+})
 
 const staticFolder = path.resolve(__dirname, './public');
 app.use(express.static(staticFolder))
